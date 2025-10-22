@@ -1,10 +1,24 @@
 #include<stdio.h>
-int cube(int n){
-    return n*n*n;
+
+/**
+ * Function use to return cube of given number.
+ * @prama num: Input number
+ * @return : Cube of number
+ */
+int cube(int num)
+{
+    return num * num * num;
 }
-void main(){
+
+/**
+ * Main entry of code.
+ * @return : always 0
+ */
+int main()
+{
     int num;
     printf("Enter Number :");
-    scanf("%d",&num);
-    printf("Cube of the %d = %d",num,cube(num));
+    scanf("%d", &num);
+    printf("Cube of the %d = %d", num, cube(num));
+    return 0;
 }

@@ -1,12 +1,19 @@
 #include<stdio.h>
-void main(){
+
+/**
+ * Main entry of code.
+ * @return : always 0
+ */
+int main()
+{
     int a;
     printf("Enter any number between 1to 100:");
-    scanf("%d",&a);
+    scanf("%d", &a);
     if (a != 100){
-        printf("true");
+        printf("True");
     }
     else{
-        printf("false");
+        printf("False");
     }
+    return 0;
 }
